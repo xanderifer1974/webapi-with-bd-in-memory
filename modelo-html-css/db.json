@@ -1,0 +1,39 @@
+{
+    "simulacaoChat": [
+      {
+        "id": 1,
+        "pergunta": "Bom dia",
+        "resposta": "Bom dia, o que podemos ajudar?"        
+      },
+      {
+        "id": 2,
+        "pergunta": "Preciso de uma segunda via da fatura do mês de maio/2023",
+        "resposta": "Favor informar o seu CPF." 
+      },
+      {
+        "id": 3,
+        "pergunta": "451.745.451-74",
+        "resposta": "Seu nome é Carlos Augusto Souza?" 
+      },
+      {
+        "id": 4,
+        "pergunta": "Isso mesmo",
+        "resposta": "Preciso que você me informe um e-mail para envio." 
+      },
+      {
+        "id": 5,
+        "pergunta": "Sim, meu email é carlossouza@gmail.com",
+        "resposta": "Só um instante Sr. Carlos, que enviaremos o email." 
+      },
+      {
+        "id": 7,
+        "pergunta": "Sim, no aguardo",
+        "resposta": "Sr. Carlos, acabamos de enviar o e-mail. Favor checar an sua caixa de mensagem." 
+      },
+      {
+        "id": 6,
+        "pergunta": "Recebi o e-mail com a fatura, obrigado",
+        "resposta": "Nós que agradecemos em poder ajudar." 
+      }
+    ]
+  }

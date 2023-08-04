@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {   
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.chat-header {   
+    height: 40px;
+    background-color: #13454C;
+    width: 400px;
+    margin: 0 auto;
+    color: #f8feff;
+    text-align: center;
+}
+
+.chat-body {
+    height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.incoming {
+    flex-direction: row-reverse;
+}
+
+.message-content {
+    background-color: #13454C;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.outgoing .message-content {
+    background-color: #E5E5EA;
+    color: #13454C;
+}
+
+.message-timestamp {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.sender {
+    font-weight: bold;
+}
+
+.text {
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.config-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+button #close {
+    padding-left: 50%;
+}
+
+/* Estilize a barra de rolagem caso deseje */
+.chat-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.chat-body::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+}
+
+
+.chat-input {
+    display: flex;
+}
+
+    .chat-input input[type="text"] {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #999;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+
+    .chat-input button {
+        padding: 10px 20px;
+        background-color: #13454C;       
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+
+        .chat-input button:hover {
+            background-color: #046673;
+        }
+
+.send-button,
+.attach-button {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+    .send-button:hover,
+    .attach-button:hover {
+        background-color: #E5E5EA;
+    }
+
+    .send-button:focus,
+    .attach-button:focus {
+        outline: none;
+    }
+
+div#chat-main-container {
+    margin-top: 15%;
+    padding-left: 45%;
+}
+
+.cancel-cursor {
+    cursor: not-allowed;
+}
+
+ul {
+    list-style-type: none !important;
+}
