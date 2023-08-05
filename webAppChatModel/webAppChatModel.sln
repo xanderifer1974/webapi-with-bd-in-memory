@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Repository", "4.2 - Repository", "{AA2D0B63-C623-41EB-93B4-CCA57A8D92CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatWeb.Trainning.Infra.Repository", "..\ChatWeb.Trainning.Infra.Repository\ChatWeb.Trainning.Infra.Repository.csproj", "{AD15B0B3-4E2E-4885-AD49-D5B54D55646C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{61CD2483-8336-4AD6-850A-875ECBEE184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61CD2483-8336-4AD6-850A-875ECBEE184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61CD2483-8336-4AD6-850A-875ECBEE184F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD15B0B3-4E2E-4885-AD49-D5B54D55646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD15B0B3-4E2E-4885-AD49-D5B54D55646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD15B0B3-4E2E-4885-AD49-D5B54D55646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD15B0B3-4E2E-4885-AD49-D5B54D55646C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{61CD2483-8336-4AD6-850A-875ECBEE184F} = {37665B46-27B6-4947-A0D4-49F553CF7C77}
 		{22B50DCD-1A90-4DA2-8146-3CAC7CAE27BC} = {1BAEC0D8-3E5A-4C7D-A3B1-6FEA8773F815}
 		{AA2D0B63-C623-41EB-93B4-CCA57A8D92CA} = {1BAEC0D8-3E5A-4C7D-A3B1-6FEA8773F815}
+		{AD15B0B3-4E2E-4885-AD49-D5B54D55646C} = {AA2D0B63-C623-41EB-93B4-CCA57A8D92CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E727AADE-F06B-4CCB-965B-49BEF3B3E989}
