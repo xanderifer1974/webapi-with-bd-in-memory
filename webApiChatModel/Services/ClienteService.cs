@@ -22,5 +22,7 @@ namespace webApiChatModel.Services
         {  
             return _clienteRepositorio.ObterClientePorCPF(cpf);
         }
+
+        //Todo >> Fazer um método private para cadastrar os clientes em memória. Alterar também o para o repositório que vem do EntityFramework em memoria.
     }
 }
